@@ -1,159 +1,280 @@
 <!DOCTYPE html>
 <html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Studio</title>
+		<!-- Подключаю шрифты проекта -->
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&amp;family=Roboto:wght@400;500;700;900&amp;display=fallback"
+		/>
+		<!-- Нормализатор из конспекта -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.7.0/modern-normalize.min.css"
+		/>
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Studio</title>
-    <!-- Подключаю шрифты проекта -->
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&amp;family=Roboto:wght@400;500;700;900&amp;display=fallback" />
-    <!-- Нормализатор из конспекта -->
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.7.0/modern-normalize.min.css" />
-    <link rel="stylesheet" href="css/common.css" />
-    <link rel="stylesheet" href="css/styles.css" />
-</head>
+	<body class="page-studio">
+		<!--Верхняя линия💪-->
+		<header class="section-header">
+			<div class="container page-header">
+				<nav class="page-nav">
+					<a class="logo" href="./index.html"><span class="logo-part-one">Web</span>Studio</a>
+					<ul class="studio-list list">
+						<li class="studio-list-item">
+							<a class="link current" href="./index.html">Студия</a>
+						</li>
+						<li class="studio-list-item">
+							<a class="link" href="./portfolio.html">Портфолио</a>
+						</li>
+						<li class="studio-list-item">
+							<a class="link" href="#contacts">Контакты</a>
+						</li>
+					</ul>
+				</nav>
+				<!--Контакты📱 ✉️-->
+				<ul class="studio-contacts-list">
+					<li class="studio-contacts-item">
+						<a class="link post" href="mailto:info@devstudio.com">info@devstudio.com</a>
+					</li>
+					<li class="studio-contacts-item">
+						<a class="link smartphone" href="tel:+380961111111">+38 096 111 11 11</a>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<main>
+			<!-- Шапка -->
+			<section class="section-primary">
+				<h1 class="primary-title">Эффективные решения<br />для вашего бизнеса</h1>
+				<button class="primary-button" type="button">Заказать услугу</button>
+			</section>
+			<!--Особенности-->
+			<section class="section-features">
+				<h2 class="section-title">Особенности</h2>
+				<div class="container">
+					<ul class="features-list list">
+						<li class="features-card icon-delivety">
+							<h3 class="features-item">Внимание к деталям</h3>
 
-<body class="page-studio">
-    <!--Верхняя линия💪-->
-    <header class="section-header">
-        <div class="container page-header">
-            <nav class="page-nav">
-                <a class="logo" href="./index.html"><span class="logo-part-one">Web</span>Studio</a>
-                <ul class="studio-list list">
-                    <li class="studio-list-item">
-                        <a class="link current" href="./index.html">Студия</a>
-                    </li>
-                    <li class="studio-list-item">
-                        <a class="link" href="./portfolio.html">Портфолио</a>
-                    </li>
-                    <li class="studio-list-item">
-                        <a class="link" href="#contacts">Контакты</a>
-                    </li>
-                </ul>
-            </nav>
-            <!--Контакты📱 ✉️-->
-            <ul class="studio-contacts-list">
-                <li class="studio-contacts-item">
-                    <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li class="studio-contacts-item">
-                    <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
-                </li>
-            </ul>
-        </div>
-    </header>
-    <main>
-        <!-- Шапка -->
-        <section class="section-primary">
-            <h1 class="primary-title">Эффективные решения<br />для вашего бизнеса</h1>
-            <button class="primary-button" type="button">Заказать услугу</button>
-        </section>
-        <!--Особенности-->
-        <section class="section-features">
-            <h2 class="section-title">Особенности</h2>
-            <div class="container">
-                <ul class="features-list list">
-                    <li class="features-card">
-                        <h3 class="features-item">Внимание к деталям</h3>
+							<p class="features-text">
+								Идейные соображения, а также начало повседневной работы по формированию позиции.
+							</p>
+						</li>
+						<li class="features-card icon-mobile">
+							<h3 class="features-item">Пунктуальность</h3>
 
-                        <p class="features-text">
-                            Идейные соображения, а также начало повседневной работы по формированию позиции.
-                        </p>
-                    </li>
-                    <li class="features-card">
-                        <h3 class="features-item">Пунктуальность</h3>
+							<p class="features-text">
+								Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+							</p>
+						</li>
+						<li class="features-card icon-computer">
+							<h3 class="features-item">Планирование</h3>
 
-                        <p class="features-text">
-                            Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
-                        </p>
-                    </li>
-                    <li class="features-card">
-                        <h3 class="features-item">Планирование</h3>
+							<p class="features-text">
+								Равным образом консультация с широким активом в значительной степени обуславливает.
+							</p>
+						</li>
+						<li class="features-card icon-cosmonaut">
+							<h3 class="features-item">Современные технологии</h3>
 
-                        <p class="features-text">
-                            Равным образом консультация с широким активом в значительной степени обуславливает.
-                        </p>
-                    </li>
-                    <li class="features-card">
-                        <h3 class="features-item">Современные технологии</h3>
+							<p class="features-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<!--Чем мы занимаемся👀-->
+			<section class="section-activity">
+				<div class="container">
+					<h2 class="section-title">Чем мы занимаемся</h2>
+					<ul class="activity-list list">
+						<li class="activity-card">
+							<img src="images/img1.jpg" alt="Руки человека на клавиатуре" width="370" height="294" />
+						</li>
+						<li class="activity-card">
+							<img src="images/img2.jpg" alt="Телефон в руке человека" width="370" height="294" />
+						</li>
+						<li class="activity-card">
+							<img src="images/img3.jpg" alt="Экран планшета с цветовой палитрой" width="370" height="294" />
+						</li>
+					</ul>
+				</div>
+			</section>
+			<!--Наша команда🤛🏼 🤜🏼-->
+			<section class="section-team">
+				<div class="container">
+					<h2 class="section-title">Наша команда</h2>
+					<ul class="list team-list flexbox wrap">
+						<li class="team-card flexbox">
+							<img src="images/img4.jpg" alt="Igor-Demyanenko" width="270" />
+							<div class="team-card-caption">
+								<h3 class="title nomargin">Николай Кучеренко</h3>
+								<p class="team nomargin">Product Designer</p>
+								<ul class="list social-list flexbox">
+									<li class="social-item">
+										<a class="social-link flexbox" href="">
+											<svg class="icon icon-instagram">
+												<use xlink:href="#icon-instagram"></use>
 
-                        <p class="features-text">Значимость этих проблем настолько очевидна, что реализация плановых
-                            заданий.</p>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <!--Чем мы занимаемся👀-->
-        <section class="section-activity">
-            <div class="container">
-                <h2 class="section-title">Чем мы занимаемся</h2>
-                <ul class="activity-list list">
-                    <li class="activity-card">
-                        <img src="images/img1.jpg" alt="Руки человека на клавиатуре" width="370" height="294" />
-                    </li>
-                    <li class="activity-card">
-                        <img src="images/img2.jpg" alt="Телефон в руке человека" width="370" height="294" />
-                    </li>
-                    <li class="activity-card">
-                        <img src="images/img3.jpg" alt="Экран планшета с цветовой палитрой" width="370" height="294" />
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <!--Наша команда🤛🏼 🤜🏼-->
-        <section class="section-team">
-            <div class="container">
-                <h2 class="section-title">Наша команда</h2>
-                <ul class="team-list list">
-                    <li class="team-card">
-                        <img src="images/img4.jpg" alt="Igor-Demyanenko" width="270" height="260" />
-                        <div class="team-card-caption">
-                            <h3 class="team-caption">Игорь Демьяненко</h3>
-                            <p class="team-position">Product Designer</p>
-                        </div>
-                    </li>
-                    <li class="team-card">
-                        <img src="images/img5.jpg" alt="Olga Repina" width="270" height="260" />
-                        <div class="team-card-caption">
-                            <h3 class="team-caption">Ольга Репина</h3>
-                            <p class="team-position">Frontend Developer</p>
-                        </div>
-                    </li>
-                    <li class="team-card">
-                        <img src="images/img6.jpg" alt="Nikolay Tarasov" width="270" height="260" />
+												<symbol id="icon-instagram" viewbox="0 0 32 32">
+													<path
+														class="letter"
+														fill="#afb1b8"
+														style="fill: var(--color1, #afb1b8)"
+														d="M31.969 9.408c-0.075-1.7-0.35-2.869-0.744-3.882-0.406-1.075-1.032-2.038-1.851-2.838-0.8-0.813-1.769-1.444-2.832-1.844-1.019-0.394-2.182-0.669-3.882-0.744-1.713-0.081-2.257-0.1-6.601-0.1s-4.888 0.019-6.595 0.094c-1.7 0.075-2.869 0.35-3.882 0.744-1.075 0.406-2.038 1.031-2.838 1.85-0.813 0.8-1.444 1.769-1.844 2.832-0.394 1.019-0.669 2.182-0.744 3.882-0.081 1.713-0.1 2.257-0.1 6.601s0.019 4.888 0.094 6.595c0.075 1.7 0.35 2.869 0.744 3.882 0.406 1.075 1.038 2.038 1.85 2.838 0.8 0.813 1.769 1.444 2.832 1.844 1.019 0.394 2.182 0.669 3.882 0.744 1.706 0.075 2.25 0.094 6.595 0.094s4.888-0.019 6.595-0.094c1.7-0.075 2.869-0.35 3.882-0.744 2.151-0.832 3.851-2.532 4.682-4.682 0.394-1.019 0.669-2.182 0.744-3.882 0.075-1.707 0.094-2.251 0.094-6.595s-0.006-4.888-0.081-6.595zM29.087 22.473c-0.069 1.563-0.331 2.407-0.55 2.969-0.538 1.394-1.644 2.5-3.038 3.038-0.563 0.219-1.413 0.481-2.969 0.55-1.688 0.075-2.194 0.094-6.464 0.094s-4.782-0.019-6.464-0.094c-1.563-0.069-2.407-0.331-2.969-0.55-0.694-0.256-1.325-0.663-1.838-1.194-0.531-0.519-0.938-1.144-1.194-1.838-0.219-0.563-0.481-1.413-0.55-2.969-0.075-1.688-0.094-2.194-0.094-6.464s0.019-4.782 0.094-6.464c0.069-1.563 0.331-2.407 0.55-2.969 0.256-0.694 0.663-1.325 1.2-1.838 0.519-0.531 1.144-0.938 1.838-1.194 0.563-0.219 1.413-0.481 2.969-0.55 1.688-0.075 2.194-0.094 6.464-0.094 4.276 0 4.782 0.019 6.464 0.094 1.563 0.069 2.407 0.331 2.969 0.55 0.694 0.256 1.325 0.662 1.838 1.194 0.531 0.519 0.938 1.144 1.194 1.838 0.219 0.563 0.481 1.413 0.55 2.969 0.075 1.688 0.094 2.194 0.094 6.464s-0.019 4.77-0.094 6.458z"
+													></path>
+													<path
+														class="letter"
+														fill="#afb1b8"
+														style="fill: var(--color1, #afb1b8)"
+														d="M16.059 7.783c-4.538 0-8.22 3.682-8.22 8.22s3.682 8.22 8.22 8.22c4.539 0 8.22-3.682 8.22-8.22s-3.682-8.22-8.22-8.22zM16.059 21.335c-2.944 0-5.332-2.388-5.332-5.332s2.388-5.332 5.332-5.332c2.944 0 5.332 2.388 5.332 5.332s-2.388 5.332-5.332 5.332z"
+													></path>
+													<path
+														class="letter"
+														fill="#afb1b8"
+														style="fill: var(--color1, #afb1b8)"
+														d="M26.524 7.458c0 1.060-0.859 1.919-1.919 1.919s-1.919-0.859-1.919-1.919c0-1.060 0.859-1.919 1.919-1.919s1.919 0.859 1.919 1.919z"
+													></path>
+												</symbol>
+											</svg>
+										</a>
+									</li>
+									<li class="social-item">
+										<a class="social-link flexbox" href="">
+											<svg class="social-icon">
+												<use href="./image-icon/sprite.svg#icon-instagram"></use>
+											</svg>
+										</a>
+									</li>
+									<li class="social-item">
+										<a class="social-link flexbox" href="">
+											<svg class="social-icon">
+												<use href="./image-icon/sprite.svg#icon-instagram"></use>
+											</svg>
+										</a>
+									</li>
+									<li class="social-item">
+										<a class="social-link flexbox" href="">
+											<svg class="social-icon">
+												<use href="./image-icon/sprite.svg#icon-instagram"></use>
+											</svg>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="team-card">
+							<img src="images/img5.jpg" alt="Olga Repina" width="270" height="260" />
+							<div class="team-card-caption">
+								<h3 class="team-caption">Ольга Иванова</h3>
+								<p class="team-position">Frontend Developer</p>
+								<ul class="social-networks">
+									<li><a href="" class="instagram"></a></li>
+									<li><a href="" class="twitter"></a></li>
+									<li><a href="" class="facebook"></a></li>
+									<li><a href="" class="linkedin"></a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="team-card">
+							<img src="images/img6.jpg" alt="Nikolay Tarasov" width="270" height="260" />
 
-                        <div class="team-card-caption">
-                            <h3 class="team-caption">Nikolay Tarasov</h3>
-                            <p class="team-position">Marketing</p>
-                        </div>
-                    </li>
-                    <li class="team-card">
-                        <img src="images/img7.jpg" alt="Mikhail Ermakov" width="270" height="260" />
+							<div class="team-card-caption">
+								<h3 class="team-caption">Андрей Шевченко</h3>
+								<p class="team-position">Marketing</p>
+								<ul class="social-networks">
+									<li><a href="" class="instagram"></a></li>
+									<li><a href="" class="twitter"></a></li>
+									<li><a href="" class="facebook"></a></li>
+									<li><a href="" class="linkedin"></a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="team-card">
+							<img src="images/img7.jpg" alt="Mikhail Ermakov" width="270" height="260" />
 
-                        <div class="team-card-caption">
-                            <h3 class="team-caption">Михаил Ермаков</h3>
-                            <p class="team-position">UI Designer</p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
-    </main>
-    <!--Подвал страницы 😃 📱 ✉️-->
-    <footer class="section-footer">
-        <div class="container">
-            <!-- <div class="footer-logo"> -->
-            <a href="" class="logo"> <span class="logo-part-one">Web</span><span class="logo-part-two">Studio</span></a>
-            <!-- </div> -->
-            <address class="footer-adress">
-                <p class="adress-mail">г. Киев, пр-т Леси Украинки, 26</p>
-                <a href="mailto:info@example.com" class="adress-email">info@example.com </a>
-                <a href="tel:+380991111111" class="adress-tel">+38 099 111 11 11</a>
-            </address>
-        </div>
-    </footer>
-</body>
+							<div class="team-card-caption">
+								<h3 class="team-caption">Иван Николаев</h3>
+								<p class="team-position">UI Designer</p>
+								<ul class="social-networks">
+									<li><a href="" class="instagram"></a></li>
+									<li><a href="" class="twitter"></a></li>
+									<li><a href="" class="facebook"></a></li>
+									<li><a href="" class="linkedin"></a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<!--Поcтоянные клиенты-->
+			<section class="section-clients">
+				<div class="container">
+					<h2 class="section-title">Постоянные клиенты</h2>
+					<div class="section-box">
+						<a href="" class="box logo1"></a>
+						<a href="" class="box logo2"></a>
+						<a href="" class="box logo3"></a>
+						<a href="" class="box logo4"></a>
+						<a href="" class="box logo5"></a>
+						<a href="" class="box logo6"></a>
+					</div>
+				</div>
+			</section>
+		</main>
+		<!--Подвал страницы 😃 📱 ✉️-->
+		<footer class="section footer">
+			<div class="container flexbox">
+				<div class="footer-contacts">
+					<a href="" class="link logo">
+						<span class="logo-part-one">Web</span><span class="logo-part-two">Studio</span></a
+					>
+					<address class="footer-adress">
+						<p class="adress-mail">г. Киев, пр-т Леси Украинки, 26</p>
+						<a href="mailto:info@example.com" class="adress-email">info@example.com </a>
+						<a href="tel:+380991111111" class="adress-tel">+38 099 111 11 11</a>
+					</address>
+				</div>
+				<div class="footer-social">
+					<p class="nomargin text">Присоединяйтесь</p>
+					<ul class="list social-list flexbox">
+						<li class="social-item">
+							<a class="social-link flexbox" href="">
+								<svg class="social-icon">
+									<use href="./images/sprite.svg#icon-instagram"></use>
+								</svg>
+							</a>
+						</li>
 
+						<li class="social-item">
+							<a class="social-link flexbox" href="">
+								<svg class="social-icon">
+									<use href="./images/sprite.svg#icon-twitter"></use>
+								</svg>
+							</a>
+						</li>
+
+						<li class="social-item">
+							<a class="social-link flexbox" href="">
+								<svg class="social-icon">
+									<use href="./images/sprite.svg#icon-facebook"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="social-item">
+							<a class="social-link flexbox" href="">
+								<svg class="social-icon">
+									<use href="./images/sprite.svg#icon-linkedin"></use>
+								</svg>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</body>
 </html>
